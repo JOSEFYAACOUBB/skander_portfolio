@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="logo.png">
+    <!-- Une icône de 32x32 png pour les navigateurs modernes -->
+    <link rel="icon" type="image/png" sizes="32x32" href="logo.png">
+    <!-- Une icône de 16x16 png pour les anciens navigateurs -->
+    <link rel="icon" type="image/png" sizes="16x16" href="logo.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
     <style>
         :root {
             --primary: #6C5CE7;
@@ -41,7 +49,10 @@
             overflow-x: hidden;
         }
 
-        h1, h2, h3, h4 {
+        h1,
+        h2,
+        h3,
+        h4 {
             font-family: 'Syne', sans-serif;
             font-weight: 700;
             line-height: 1.3;
@@ -827,7 +838,8 @@
             margin-bottom: 5px;
         }
 
-        .contact-text a, .contact-text p {
+        .contact-text a,
+        .contact-text p {
             color: rgba(255, 255, 255, 0.9);
             transition: var(--transition);
         }
@@ -987,6 +999,7 @@
                 opacity: 0;
                 transform: translateY(30px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -997,6 +1010,7 @@
             from {
                 opacity: 0;
             }
+
             to {
                 opacity: 1;
             }
@@ -1006,21 +1020,30 @@
             0% {
                 transform: translateY(0px);
             }
+
             50% {
                 transform: translateY(-15px);
             }
+
             100% {
                 transform: translateY(0px);
             }
         }
 
         @keyframes bounce {
-            0%, 20%, 50%, 80%, 100% {
+
+            0%,
+            20%,
+            50%,
+            80%,
+            100% {
                 transform: translateY(0) translateX(-50%);
             }
+
             40% {
                 transform: translateY(-20px) translateX(-50%);
             }
+
             60% {
                 transform: translateY(-10px) translateX(-50%);
             }
@@ -1114,6 +1137,7 @@
         }
     </style>
 </head>
+
 <body>
     <!-- Header / Hero Section -->
     <header id="home">
@@ -1127,7 +1151,7 @@
                 <h1>Skander Klai</h1>
                 <h2>Webmaster & Expert Digital</h2>
                 <p>Créateur d'expériences web exceptionnelles et solutions digitales sur mesure</p>
-                
+
                 <div class="hero-btns">
                     <a href="#contact" class="btn">Me Contacter</a>
                     <a href="#services" class="btn btn-outline">Mes Services</a>
@@ -1144,18 +1168,21 @@
                 <h2 class="section-title">À Propos</h2>
                 <p class="section-subtitle">Découvrez qui je suis et ce qui me passionne</p>
             </div>
-            
+
             <div class="about-content">
                 <div class="about-text">
-                    <p>Je m'appelle Skander Klai, j'ai 27 ans et je suis un passionné du digital avec une formation en commerce électronique. Mon parcours m'a permis de développer une expertise polyvalente allant du développement web à la gestion de contenu, en passant par le marketing digital.</p>
-                    <p>Ce qui me distingue ? Une approche créative couplée à une rigueur technique, une capacité d'adaptation hors pair et un engagement sans faille dans chaque projet que j'entreprends.</p>
-                    
+                    <p>Je m'appelle Skander Klai, j'ai 27 ans et je suis un passionné du digital avec une formation en
+                        commerce électronique. Mon parcours m'a permis de développer une expertise polyvalente allant du
+                        développement web à la gestion de contenu, en passant par le marketing digital.</p>
+                    <p>Ce qui me distingue ? Une approche créative couplée à une rigueur technique, une capacité
+                        d'adaptation hors pair et un engagement sans faille dans chaque projet que j'entreprends.</p>
+
                     <div class="about-stats">
-                       
-                      
+
+
                     </div>
                 </div>
-                
+
                 <div class="about-image">
                     <img src="skander.jpg" alt="Skander Klai">
                 </div>
@@ -1170,59 +1197,65 @@
                 <h2 class="section-title">Mes Services</h2>
                 <p class="section-subtitle">Des solutions digitales complètes pour votre présence en ligne</p>
             </div>
-            
+
             <div class="services-grid">
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-laptop-code"></i>
                     </div>
                     <h3>Développement Web</h3>
-                    <p>Création de sites web sur mesure, optimisés pour les performances et le référencement, avec une expérience utilisateur exceptionnelle.</p>
+                    <p>Création de sites web sur mesure, optimisés pour les performances et le référencement, avec une
+                        expérience utilisateur exceptionnelle.</p>
                     <a href="#contact" class="btn btn-outline">En savoir plus</a>
                 </div>
-                
+
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-shopping-cart"></i>
                     </div>
                     <h3>E-Commerce</h3>
-                    <p>Solutions e-commerce clés en main avec Prestashop et WooCommerce, intégration de moyens de paiement et optimisation du tunnel d'achat.</p>
+                    <p>Solutions e-commerce clés en main avec Prestashop et WooCommerce, intégration de moyens de
+                        paiement et optimisation du tunnel d'achat.</p>
                     <a href="#contact" class="btn btn-outline">En savoir plus</a>
                 </div>
-                
+
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-chart-line"></i>
                     </div>
                     <h3>Marketing Digital</h3>
-                    <p>Stratégies digitales personnalisées, gestion des réseaux sociaux et campagnes publicitaires pour maximiser votre visibilité en ligne.</p>
+                    <p>Stratégies digitales personnalisées, gestion des réseaux sociaux et campagnes publicitaires pour
+                        maximiser votre visibilité en ligne.</p>
                     <a href="#contact" class="btn btn-outline">En savoir plus</a>
                 </div>
-                
+
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-database"></i>
                     </div>
                     <h3>Gestion de Stock</h3>
-                    <p>Optimisation de votre gestion de stock avec des solutions logicielles adaptées et des processus rationalisés pour une efficacité maximale.</p>
+                    <p>Optimisation de votre gestion de stock avec des solutions logicielles adaptées et des processus
+                        rationalisés pour une efficacité maximale.</p>
                     <a href="#contact" class="btn btn-outline">En savoir plus</a>
                 </div>
-                
+
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-paint-brush"></i>
                     </div>
                     <h3>Design Graphique</h3>
-                    <p>Création d'identités visuelles percutantes, supports print et digital avec une approche à la fois esthétique et stratégique.</p>
+                    <p>Création d'identités visuelles percutantes, supports print et digital avec une approche à la fois
+                        esthétique et stratégique.</p>
                     <a href="#contact" class="btn btn-outline">En savoir plus</a>
                 </div>
-                
+
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-search"></i>
                     </div>
                     <h3>SEO & Analytics</h3>
-                    <p>Optimisation pour les moteurs de recherche et analyse des données pour améliorer continuellement votre performance digitale.</p>
+                    <p>Optimisation pour les moteurs de recherche et analyse des données pour améliorer continuellement
+                        votre performance digitale.</p>
                     <a href="#contact" class="btn btn-outline">En savoir plus</a>
                 </div>
             </div>
@@ -1236,13 +1269,13 @@
                 <h2 class="section-title">Expérience Professionnelle</h2>
                 <p class="section-subtitle">Mon parcours et mes réalisations</p>
             </div>
-            
+
             <div class="experience-tabs">
                 <button class="tab-btn active" data-tab="work">Expériences</button>
                 <button class="tab-btn" data-tab="education">Formation</button>
                 <button class="tab-btn" data-tab="certifications">Certifications</button>
             </div>
-            
+
             <div class="tab-content active" id="work">
                 <div class="timeline">
                     <div class="timeline-item">
@@ -1251,30 +1284,68 @@
                             <h3 class="timeline-title">La Générale de Distribution</h3>
                             <p class="timeline-text">Assistant en gestion de stock</p>
                             <ul class="timeline-text">
-                                <li><i class="fas fa-circle" style="font-size: 8px; margin-right: 8px;"></i> Intégration produits (site + Sage)</li>
-                                <li><i class="fas fa-circle" style="font-size: 8px; margin-right: 8px;"></i> Mise à jour produits et stocks</li>
-                                <li><i class="fas fa-circle" style="font-size: 8px; margin-right: 8px;"></i> Création de bannières promotionnelles</li>
-                                <li><i class="fas fa-circle" style="font-size: 8px; margin-right: 8px;"></i> Gestion des campagnes emailing</li>
+                                <li><i class="fas fa-circle" style="font-size: 8px; margin-right: 8px;"></i> Intégrer
+                                    des produits dans le site web
+                                </li>
+                                <li><i class="fas fa-circle" style="font-size: 8px; margin-right: 8px;"></i> Mise à jour
+                                    des produits (prix, promo, etc...)</li>
+                                <li><i class="fas fa-circle" style="font-size: 8px; margin-right: 8px;"></i> Participer
+                                    à des inventaires
+                                </li>
+                                <li><i class="fas fa-circle" style="font-size: 8px; margin-right: 8px;"></i> Traiter des
+                                    commandes (site et partenaire)
+                                </li>
+                                <li><i class="fas fa-circle" style="font-size: 8px; margin-right: 8px;"></i> Assurer la
+                                    facturation des clients
+
+                                </li>
+                                <li><i class="fas fa-circle" style="font-size: 8px; margin-right: 8px;"></i>Assurer le
+                                    recouvrement des boutiques
+
+
+                                </li>
+                                <li><i class="fas fa-circle" style="font-size: 8px; margin-right: 8px;"></i>Assurer le
+                                    recouvrement des boutiques
+
+
+                                </li>
+                                <li><i class="fas fa-circle" style="font-size: 8px; margin-right: 8px;"></i>Livrer les
+                                    marchandises aux boutiques
+                                </li>
+                                <li><i class="fas fa-circle" style="font-size: 8px; margin-right: 8px;"></i>Gérer les
+                                    stocks des magasins
+                                </li>
                             </ul>
                         </div>
                     </div>
-                    
+
                     <div class="timeline-item">
                         <div class="timeline-content">
                             <div class="timeline-date"><i class="far fa-calendar-alt"></i> 2020–2021</div>
                             <h3 class="timeline-title">Agora Informatique</h3>
                             <p class="timeline-text">Web Master</p>
                             <ul class="timeline-text">
-                                <li><i class="fas fa-circle" style="font-size: 8px; margin-right: 8px;"></i> Gestion complète du site e-commerce</li>
-                                <li><i class="fas fa-circle" style="font-size: 8px; margin-right: 8px;"></i> Optimisation des processus de commande</li>
-                                <li><i class="fas fa-circle" style="font-size: 8px; margin-right: 8px;"></i> Formation des équipes aux outils digitaux</li>
-                                <li><i class="fas fa-circle" style="font-size: 8px; margin-right: 8px;"></i> Analyse des données et reporting</li>
+                                <li><i class="fas fa-circle" style="font-size: 8px; margin-right: 8px;"></i> Intégrer
+                                    des produits (site web & Sage)
+                                </li>
+                                <li><i class="fas fa-circle" style="font-size: 8px; margin-right: 8px;"></i>
+                                    Mise à jour des produits (prix, promo, etc...)
+                                </li>
+                                <li><i class="fas fa-circle" style="font-size: 8px; margin-right: 8px;"></i>Créer des
+                                    bannières et affiches
+                                </li>
+                                <li><i class="fas fa-circle" style="font-size: 8px; margin-right: 8px;"></i> Traiter des
+                                    e-mails et devis
+                                </li>
+                                <li><i class="fas fa-circle" style="font-size: 8px; margin-right: 8px;"></i> Traiter les
+                                    images du site web
+                                </li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
-            
+
             <div class="tab-content" id="education">
                 <div class="timeline">
                     <div class="timeline-item">
@@ -1285,7 +1356,7 @@
                             <p>Spécialisation en stratégies digitales et e-commerce avancé</p>
                         </div>
                     </div>
-                    
+
                     <div class="timeline-item">
                         <div class="timeline-content">
                             <div class="timeline-date"><i class="far fa-calendar-alt"></i> 2017–2020</div>
@@ -1294,30 +1365,76 @@
                             <p>Spécialité : Commerce électronique</p>
                         </div>
                     </div>
-                </div>
-            </div>
-            
-            <div class="tab-content" id="certifications">
-                <div class="timeline">
                     <div class="timeline-item">
                         <div class="timeline-content">
-                            <div class="timeline-date"><i class="far fa-calendar-alt"></i> 2023</div>
-                            <h3 class="timeline-title">Certification Google Analytics</h3>
-                            <p class="timeline-text">Google</p>
-                            <p>Analyse avancée des données web</p>
-                        </div>
-                    </div>
-                    
-                    <div class="timeline-item">
-                        <div class="timeline-content">
-                            <div class="timeline-date"><i class="far fa-calendar-alt"></i> 2022</div>
-                            <h3 class="timeline-title">Certification Prestashop</h3>
-                            <p class="timeline-text">Prestashop</p>
-                            <p>Développement et gestion de boutiques en ligne</p>
+                            <div class="timeline-date"><i class="far fa-calendar-alt"></i> 2016–2017</div>
+                            <h3 class="timeline-title">Baccalauréat en Sciences Informatiques</h3>
+                            <p class="timeline-text">Lycée Rue de Russie</p>
+
                         </div>
                     </div>
                 </div>
             </div>
+
+        </div>
+
+
+        <div class="tab-content" id="certifications">
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date"><i class="far fa-calendar-alt"></i></div>
+                        <h3 class="timeline-title">Microsoft Technlnology Associate</h3>
+                        <p class="timeline-text">Introduction to Programming using Python</p>
+
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date"><i class="far fa-calendar-alt"></i></div>
+                        <h3 class="timeline-title">Microsoft Technlnology Associate</h3>
+                        <p class="timeline-text">Software Development Fundamentals</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date"><i class="far fa-calendar-alt"></i></div>
+                        <h3 class="timeline-title">Microsoft Technlnology Associate</h3>
+                        <p class="timeline-text">Introduction to Programming using jave</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date"><i class="far fa-calendar-alt"></i></div>
+                        <h3 class="timeline-title">Microsoft Technlnology Associate</h3>
+                        <p class="timeline-text">Security Fundamentals</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date"><i class="far fa-calendar-alt"></i></div>
+                        <h3 class="timeline-title">Microsoft Technlnology Associate</h3>
+                        <p class="timeline-text">Introduction to Programming using JavaScript</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date"><i class="far fa-calendar-alt"></i></div>
+                        <h3 class="timeline-title">Microsoft Technlnology Associate</h3>
+                        <p class="timeline-text">Database Administration Fundamentals</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date"><i class="far fa-calendar-alt"></i></div>
+                        <h3 class="timeline-title">Microsoft Technlnology Associate</h3>
+                        <p class="timeline-text">Introduction to Programming using HTML & CSS</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
         </div>
     </section>
 
@@ -1328,7 +1445,7 @@
                 <h2 class="section-title">Mes Outils</h2>
                 <p class="section-subtitle">Les technologies et plateformes que je maîtrise</p>
             </div>
-            
+
             <div class="tools-container">
                 <div class="tool-item">
                     <div class="tool-icon">
@@ -1336,63 +1453,57 @@
                     </div>
                     <div class="tool-name">WordPress</div>
                 </div>
-                
+
                 <div class="tool-item">
                     <div class="tool-icon">
                         <i class="fab fa-shopify"></i>
                     </div>
                     <div class="tool-name">Prestashop</div>
                 </div>
-                
+
                 <div class="tool-item">
                     <div class="tool-icon">
                         <i class="fab fa-html5"></i>
                     </div>
                     <div class="tool-name">HTML5</div>
                 </div>
-                
+
                 <div class="tool-item">
                     <div class="tool-icon">
                         <i class="fab fa-css3-alt"></i>
                     </div>
                     <div class="tool-name">CSS3</div>
                 </div>
-                
+
                 <div class="tool-item">
                     <div class="tool-icon">
                         <i class="fab fa-js"></i>
                     </div>
                     <div class="tool-name">JavaScript</div>
                 </div>
-                
+
                 <div class="tool-item">
                     <div class="tool-icon">
                         <i class="fab fa-php"></i>
                     </div>
                     <div class="tool-name">PHP</div>
                 </div>
-                
+
                 <div class="tool-item">
                     <div class="tool-icon">
                         <i class="fas fa-database"></i>
                     </div>
                     <div class="tool-name">MySQL</div>
                 </div>
-                
-                <div class="tool-item">
-                    <div class="tool-icon">
-                        <i class="fab fa-adobe"></i>
-                    </div>
-                    <div class="tool-name">Adobe Suite</div>
-                </div>
-                
+
+
                 <div class="tool-item">
                     <div class="tool-icon">
                         <i class="fas fa-chart-pie"></i>
                     </div>
                     <div class="tool-name">Google Analytics</div>
                 </div>
-                
+
                 <div class="tool-item">
                     <div class="tool-icon">
                         <i class="fas fa-search-dollar"></i>
@@ -1403,124 +1514,6 @@
         </div>
     </section>
 
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Témoignages</h2>
-                <p class="section-subtitle">Ce que disent mes clients et collaborateurs</p>
-            </div>
-            
-            <div class="testimonials-slider">
-                <div class="testimonials-track">
-                    <div class="testimonial">
-                        <div class="testimonial-avatar">
-                            <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="Client">
-                        </div>
-                        <p class="testimonial-text">"Skander a transformé notre présence en ligne avec un site web exceptionnel. Son professionnalisme et sa créativité ont dépassé nos attentes."</p>
-                        <h4 class="testimonial-author">Sarah Ben Ammar</h4>
-                        <p class="testimonial-role">Directrice Marketing, La Générale de Distribution</p>
-                    </div>
-                    
-                    <div class="testimonial">
-                        <div class="testimonial-avatar">
-                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client">
-                        </div>
-                        <p class="testimonial-text">"Un professionnel talentueux et rigoureux. Skander a optimisé notre gestion de stock et formé notre équipe avec patience et expertise."</p>
-                        <h4 class="testimonial-author">Mohamed Trabelsi</h4>
-                        <p class="testimonial-role">PDG, Agora Informatique</p>
-                    </div>
-                    
-                    <div class="testimonial">
-                        <div class="testimonial-avatar">
-                            <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Client">
-                        </div>
-                        <p class="testimonial-text">"Collaborer avec Skander a été une réelle valeur ajoutée pour notre stratégie digitale. Ses conseils avisés ont boosté notre visibilité en ligne."</p>
-                        <h4 class="testimonial-author">Amira Khemiri</h4>
-                        <p class="testimonial-role">Entrepreneure, JOKER ESEN CLUB</p>
-                    </div>
-                </div>
-                
-                <div class="slider-nav">
-                    <div class="slider-dot active" data-slide="0"></div>
-                    <div class="slider-dot" data-slide="1"></div>
-                    <div class="slider-dot" data-slide="2"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Gallery Section -->
-    <section id="gallery" class="gallery">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Galerie Projets</h2>
-                <p class="section-subtitle">Quelques-unes de mes réalisations récentes</p>
-            </div>
-            
-            <div class="gallery-grid">
-                <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="Projet 1">
-                    <div class="gallery-overlay">
-                        <div class="gallery-info">
-                            <h3>Site E-commerce</h3>
-                            <p>Boutique en ligne Prestashop</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80" alt="Projet 2">
-                    <div class="gallery-overlay">
-                        <div class="gallery-info">
-                            <h3>Portfolio Artistique</h3>
-                            <p>Site WordPress sur mesure</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Projet 3">
-                    <div class="gallery-overlay">
-                        <div class="gallery-info">
-                            <h3>Application Web</h3>
-                            <p>Solution de gestion de stock</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Projet 4">
-                    <div class="gallery-overlay">
-                        <div class="gallery-info">
-                            <h3>Dashboard Analytics</h3>
-                            <p>Visualisation de données</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1064&q=80" alt="Projet 5">
-                    <div class="gallery-overlay">
-                        <div class="gallery-info">
-                            <h3>Campagne Marketing</h3>
-                            <p>Stratégie digitale intégrée</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Projet 6">
-                    <div class="gallery-overlay">
-                        <div class="gallery-info">
-                            <h3>Identité Visuelle</h3>
-                            <p>Création de logo et charte graphique</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
@@ -1529,7 +1522,7 @@
                 <h2 class="section-title">Contactez-moi</h2>
                 <p class="section-subtitle">Discutons de votre projet et voyons comment je peux vous aider</p>
             </div>
-            
+
             <div class="contact-container">
                 <div class="contact-info">
                     <div class="contact-item">
@@ -1541,7 +1534,7 @@
                             <p>G133 Résidence Hannibal - Fouchena</p>
                         </div>
                     </div>
-                    
+
                     <div class="contact-item">
                         <div class="contact-icon">
                             <i class="fas fa-envelope"></i>
@@ -1551,7 +1544,7 @@
                             <a href="mailto:skanderklai17@gmail.com">skanderklai17@gmail.com</a>
                         </div>
                     </div>
-                    
+
                     <div class="contact-item">
                         <div class="contact-icon">
                             <i class="fas fa-phone-alt"></i>
@@ -1561,7 +1554,7 @@
                             <p>+216 90 174 803 / +216 58 204 344</p>
                         </div>
                     </div>
-                    
+
                     <div class="contact-item">
                         <div class="contact-icon">
                             <i class="fas fa-clock"></i>
@@ -1572,29 +1565,32 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="contact-form">
-                    <form id="contactForm">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="c9f2aa6b-3acb-4b17-b596-d6b0ff1cb330">
+                        <input type="hidden" name="_subject" value="New Contact Form Submission from Your Website!">
+
                         <div class="form-group">
                             <label for="name">Votre nom</label>
                             <input type="text" id="name" name="name" required>
                         </div>
-                        
+
                         <div class="form-group">
                             <label for="email">Votre email</label>
                             <input type="email" id="email" name="email" required>
                         </div>
-                        
+
                         <div class="form-group">
                             <label for="subject">Sujet</label>
                             <input type="text" id="subject" name="subject" required>
                         </div>
-                        
+
                         <div class="form-group">
                             <label for="message">Votre message</label>
                             <textarea id="message" name="message" required></textarea>
                         </div>
-                        
+
                         <button type="submit" class="submit-btn">Envoyer le message</button>
                     </form>
                 </div>
@@ -1607,7 +1603,7 @@
         <div class="container">
             <div class="footer-content">
                 <p>Prêt à donner vie à votre projet digital ? Travaillons ensemble !</p>
-                
+
                 <div class="footer-links">
                     <a href="#home">Accueil</a>
                     <a href="#about">À propos</a>
@@ -1616,50 +1612,52 @@
                     <a href="#gallery">Projets</a>
                     <a href="#contact">Contact</a>
                 </div>
-                
+
                 <div class="social-links">
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#"><i class="fab fa-github"></i></a>
-                    <a href="#"><i class="fab fa-dribbble"></i></a>
-                    <a href="#"><i class="fab fa-behance"></i></a>
-                </div>
+                    <a href="https://www.linkedin.com/in/skander-klai-76047b161/?originalSubdomain=tn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.facebook.com/Skander.Klai12?rdid=1x9UVvQnDxVvDt3S&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1ChbVFcc3A%2F#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="https://www.instagram.com/skanderklai?igsh=MTFud2dlaGd4YXFpZw==" target="_blank"><i class="fab fa-instagram"></i></a>
+
+                  
                 
+                </div>
+
                 <a href="#home" class="back-to-top">
                     <i class="fas fa-arrow-up"></i>
                 </a>
-                
-                <p class="copyright">&copy; 2023 Skander Klai. Tous droits réservés.</p>
+
+                <p class="copyright">&copy; 2025 Youssef Ben Yaacoub. Tous droits réservés.</p>
             </div>
         </div>
     </footer>
 
     <script>
         // Animation au scroll
-        document.addEventListener('DOMContentLoaded', function() {
-            const animateOnScroll = function() {
+        document.addEventListener('DOMContentLoaded', function () {
+            const animateOnScroll = function () {
                 const elements = document.querySelectorAll('.service-card, .timeline-item, .tool-item, .gallery-item');
-                
+
                 elements.forEach(element => {
                     const elementPosition = element.getBoundingClientRect().top;
                     const screenPosition = window.innerHeight / 1.2;
-                    
+
                     if (elementPosition < screenPosition) {
                         element.classList.add('visible');
                     }
                 });
             };
-            
+
             window.addEventListener('scroll', animateOnScroll);
             animateOnScroll();
-            
+
             // Smooth scrolling
             document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function(e) {
+                anchor.addEventListener('click', function (e) {
                     e.preventDefault();
-                    
+
                     const targetId = this.getAttribute('href');
                     if (targetId === '#') return;
-                    
+
                     const targetElement = document.querySelector(targetId);
                     if (targetElement) {
                         window.scrollTo({
@@ -1669,78 +1667,78 @@
                     }
                 });
             });
-            
+
             // Onglets expérience
             const tabBtns = document.querySelectorAll('.tab-btn');
             tabBtns.forEach(btn => {
-                btn.addEventListener('click', function() {
+                btn.addEventListener('click', function () {
                     const tabId = this.getAttribute('data-tab');
-                    
+
                     // Retirer active de tous les boutons et contenus
                     tabBtns.forEach(btn => btn.classList.remove('active'));
                     document.querySelectorAll('.tab-content').forEach(content => {
                         content.classList.remove('active');
                     });
-                    
+
                     // Ajouter active au bouton et contenu cliqué
                     this.classList.add('active');
                     document.getElementById(tabId).classList.add('active');
                 });
             });
-            
+
             // Slider témoignages
             const track = document.querySelector('.testimonials-track');
             const dots = document.querySelectorAll('.slider-dot');
             let currentSlide = 0;
-            
+
             function goToSlide(index) {
                 track.style.transform = `translateX(-${index * 100}%)`;
-                
+
                 dots.forEach(dot => dot.classList.remove('active'));
                 dots[index].classList.add('active');
-                
+
                 currentSlide = index;
             }
-            
+
             dots.forEach(dot => {
-                dot.addEventListener('click', function() {
+                dot.addEventListener('click', function () {
                     const slideIndex = parseInt(this.getAttribute('data-slide'));
                     goToSlide(slideIndex);
                 });
             });
-            
+
             // Auto-slide
             setInterval(() => {
                 currentSlide = (currentSlide + 1) % dots.length;
                 goToSlide(currentSlide);
             }, 5000);
-            
+
             // Formulaire de contact
             const contactForm = document.getElementById('contactForm');
             if (contactForm) {
-                contactForm.addEventListener('submit', function(e) {
+                contactForm.addEventListener('submit', function (e) {
                     e.preventDefault();
-                    
+
                     // Ici vous pourriez ajouter la logique d'envoi du formulaire
                     alert('Merci pour votre message ! Je vous répondrai dès que possible.');
                     contactForm.reset();
                 });
             }
-            
+
             // Effet de vague sur les boutons
             const buttons = document.querySelectorAll('.btn');
             buttons.forEach(button => {
-                button.addEventListener('click', function(e) {
+                button.addEventListener('click', function (e) {
                     const x = e.clientX - e.target.getBoundingClientRect().left;
                     const y = e.clientY - e.target.getBoundingClientRect().top;
-                    
+
                     const ripple = document.createElement('span');
                     ripple.classList.add('ripple');
                     ripple.style.left = `${x}px`;
                     ripple.style.top = `${y}px`;
-                    
+
                     this.appendChild(ripple);
-                    
+
                     setTimeout(() => {
                         ripple.remove();
                     }, 1000);
